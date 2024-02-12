@@ -9,7 +9,7 @@
 a{
     color: #000;
 }
-nav{
+.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,18 +17,21 @@ nav{
     height: 60px;
     margin: 0 auto;
 }
-nav ul{
+.nav__logo{
+    font-size: 1.7rem; font-weight: bold;
+}
+.nav__menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-nav ul li{
+.nav__menu--style{
     font-weight: 300;
     padding: 0 25px;
     cursor: pointer;
     position: relative;
 }
-nav ul li::after{
+.nav__menu--style::after{
     content: "";
     position: absolute;
     width: 1px;
@@ -36,7 +39,7 @@ nav ul li::after{
     right: 0;
     background: #000;
 }
-nav ul li:last-child::after{
+.nav__menu--style:last-child::after{
     background: none;
 }
 .section{
@@ -47,39 +50,39 @@ nav ul li:last-child::after{
     max-width: 1100px;
     margin: 0 auto;
 }
-.section .picture{
+.section__picture{
     width: 40%;
     margin-right: 50px;
 }
-.picture img{
+.section__picture--size{
     border-radius: 100%;
     width: 100%;
 }
-.infos{
+.section__infos{
     width: 80%;
 }
-.about h1{
+.about__title{
     font-size: 2.5rem;
     padding: 10px 0;
 }
-.about h3{
+.about__liltitle{
     font-size: 1rem;
     font-weight: 650;
     padding: 10px 0;
 }
-.about p{
+.about__text{
     min-width: 300px;
     line-height: 30px;
 }
-.lien ul{
+.link__list{
     padding: 30px 0;
     display: flex;
 }
-.lien ul li:first-child{
+.link__list--style:first-child{
     background: RGB(238 163 4);
     border: 1px rgb(89,62,3);
 }
-.lien ul li{
+.link__list--style{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,11 +96,11 @@ nav ul li:last-child::after{
     margin-right: 30px;
     cursor: pointer;
 }
-.lien ul li:last-child{
+.link__list--style:last-child{
     background: RGB(128 216 218);
     border: 1px rgb(89,62,3);
 }
-.lien ul li:hover{
+.link__list--style:hover{
     transform: scale(.9);
 }
 .footer{
@@ -108,25 +111,16 @@ nav ul li:last-child::after{
     display: flex;
     justify-content: space-between;
 }
-.footer h3{
+.footer__content{
     padding: 15px 0;
     font-size: 1rem;
 }
-.news p{
+.footer__content--padding{
     padding: 15px 0;
 }
-.icons{
-    display: flex;
-    align-items: center;
-}
-.icons i{
-    margin-right: 10px;
-    cursor: pointer;
-    transition: all .4s ease;
-}
-.icons i:hover{
-    transform: scale(1.2);
-}
+
+
+
 .formulaire{
     display: flex;
     justify-content: space-around;
