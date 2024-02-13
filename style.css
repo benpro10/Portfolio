@@ -9,16 +9,17 @@
 a{
     color: #000;
 }
-.nav{
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
     height: 60px;
-    margin: 0 auto;
+   
 }
-.nav__logo{
-    font-size: 1.7rem; font-weight: bold;
+.header__logo{
+    font-size: 1.7rem; 
+    font-weight: bold;
+    margin-left: 25px;
 }
 .nav__menu{
     display: flex;
@@ -53,10 +54,12 @@ a{
 .section__picture{
     width: 40%;
     margin-right: 50px;
+    
 }
 .section__picture--size{
     border-radius: 100%;
     width: 100%;
+    
 }
 .section__infos{
     width: 80%;
@@ -119,46 +122,50 @@ a{
     padding: 15px 0;
 }
 
+                  /*---------------- Contact-style -------------------*/
 
-
-.formulaire{
+.form{
     display: flex;
     justify-content: space-around;
     max-width: 1100px;
     padding: 250px 0 300px;
     margin: 0 auto;
 }
-.block1{
+.infos{
     line-height: 50px;
+    margin-top: 50px;
 }
-.block1 h3{
+.infos__title{
     margin: 0 50px;
+    padding-right: 10px;
 }
-.block1  p{
-    margin: 0 50px;
+.infos__link{
+    margin-left: 50px;
 }
-.form form{
+
+.block__form{
     display: grid;
     align-items: stretch;
     grid-template-columns: 50% 50%;
     gap: 20px;
     justify-content: end;
 }
-form label{
+.form__label{
     display: block;
     margin-bottom: 10px;
+    padding-top: 30px;
 }
-input[type="text"], input[type="email"]{
+.form__input--text[type="text"], .form__input--mail[type="email"]{
     padding: 8px;
     width: 250px;
 }
-textarea{
+.form__textarea{
     padding: 8px;
     resize: none;
     height: 150px;
     width: 250px;
 }
-input[type="submit"]{
+.form__input--submit[type="submit"]{
     background: #ffa600;
     border: 1px solid #91671a;
     font-weight: bold;
@@ -167,10 +174,16 @@ input[type="submit"]{
     height: 150px;
     width: 150px;
     transition: all .4s ease;
+    margin-top: 90px;
+    margin-left: 50px;
+
 }
-input[type="submit"]:hover{
+.form__input--submit[type="submit"]:hover{
     transform: scale(.9);
 }
+
+            /*--------------- projet ----------------------*/
+
 .project-items{
     display: flex;
     justify-content: space-evenly;
