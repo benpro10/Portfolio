@@ -52,6 +52,23 @@ a{
 .nav__menu--style:last-child::after{
     background: none;
 }
+@media screen and (max-width: 704px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px ;
+        width: 100%;
+        flex-direction: column;
+    }
+    .header__logo{
+        font-size: 1.1rem; 
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+    }
+    
+}
 
                    /*------------- index-style  ----------------*/
 .section{
@@ -143,6 +160,7 @@ a{
         width: 100%;
         
     }
+    
 }
 
                       /* ------------ footer ----------------*/
@@ -171,9 +189,6 @@ a{
     }
     .phone__number{
         padding-left: 25px;
-    }
-    .footer__content--icon{
-       margin-left: 30px;
     }
     
 }
