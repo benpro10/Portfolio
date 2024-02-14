@@ -257,14 +257,14 @@ section li{
 } */
 
                                         /*-------------- CV-style ---------------*/
-.experience .cv{
+.curriculum .curriculum__title{
     font-size: 1.1rem;
-    padding: 20px 0 15px;
+    padding: 20px 0 20px;
     line-height: 25px;
 }
-.title{
+.experience__title{
     font-size: 1.1rem;
-    padding: 20px 0 30px;
+    padding: 20px 0 30px 10px;
     line-height: 25px;
 }
 .text{
@@ -275,8 +275,9 @@ section li{
 .list{
     line-height: 30px;
     margin-bottom: 25px;
+    padding-left: 50px;
 }
-.list li{
+.list__style{
     line-height: 30px;
 }
 .block{
@@ -287,11 +288,14 @@ section li{
 .left{
     margin-bottom: 25px;
 }
-.left h3{
+.left__title{
     font-size: .9rem;
 }
+.right__text{
+    padding-right: 20px;
+}
 
-.competence-container{
+/* .competence-container{
     display: flex;
     margin: 0 25px 0;
     font-size: .9rem;
@@ -302,9 +306,9 @@ section li{
 }
 .competence-container li{
     font-size: .9rem;
-}
+} */
 
-.etude{
+.education{
     border-top: 1px solid #dddcdc;
     border-bottom: 1px solid #dddcdc;
 }
@@ -316,10 +320,4 @@ section li{
 .langue{
     margin-bottom: 80px;
     border-top: 1px solid #dddcdc;
-}
-.langue h3{
-    padding-bottom: 20px;
-}
-.langue li{
-    font-weight: bold;
 }
