@@ -1,0 +1,64 @@
+.form{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75vh;
+}
+.infos{
+    line-height: 50px;
+    width: 30%;
+}
+.infos__title{
+    
+}
+.infos__link{
+    
+}
+.block{
+
+}
+
+.block__form{
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: 50% 50%;
+    justify-content: end;
+    gap: 10px;
+    align-items: end;
+}
+.form__label{
+    display: block;
+    padding: 0 0 20px;
+}
+.form__input--text[type="text"], .form__input--mail[type="email"]{
+    width: 250px;
+    
+}
+.form__textarea{
+   
+    display: flex;
+    resize: none;
+    height: 150px;
+    width: 250px;
+   
+}
+.form__input--submit[type="submit"]{
+    background: #ffa600;
+    border: 1px solid #91671a;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all .4s ease;
+    width: 100px;
+    height: 100px;
+}
+.form__input--submit[type="submit"]:hover{
+    transform: scale(.9);
+}
+/* responsive */
+@media screen and (min-width: 1600px){
+    .form{
+        width: 60%;
+    }
+}
