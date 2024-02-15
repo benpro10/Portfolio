@@ -252,6 +252,17 @@ a{
 .form__input--submit[type="submit"]:hover{
     transform: scale(.9);
 }
+@media screen and (max-width: 1024px){
+    .form{
+        display:grid
+    }
+}
+@media screen and (max-width: 704px){
+    .block__form{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
             /*--------------- projet-style ----------------------*/
 
