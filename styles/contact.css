@@ -4,21 +4,19 @@
     justify-content: space-between;
     align-items: center;
     height: 75vh;
+
 }
 .infos{
     line-height: 50px;
     width: 30%;
-}
-.infos__title{
-    
+    margin: 0 auto;
 }
 .infos__link{
-    
+    color: black;
 }
 .block{
-
+    margin: 0 auto;
 }
-
 .block__form{
     display: grid;
     align-items: stretch;
@@ -50,15 +48,17 @@
     cursor: pointer;
     border-radius: 50%;
     transition: all .4s ease;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    margin-left:50px;
+
 }
 .form__input--submit[type="submit"]:hover{
     transform: scale(.9);
 }
 /* responsive */
-@media screen and (min-width: 1600px){
+/* @media screen and (min-width: 1600px){
     .form{
         width: 60%;
     }
-}
+} */
