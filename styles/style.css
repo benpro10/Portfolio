@@ -11,10 +11,11 @@
 .header{
     display: flex;
     justify-content: center;
+
 }
 .header__container{
     display: flex;
-    width: 80%;
+    width: 90%;
     justify-content: space-between;
     height: 10vh;
     align-items: center;
@@ -24,10 +25,11 @@
     font-size: 1.7rem; 
     font-weight: bold;
     cursor: pointer;
+    /* padding-right: 100px;
+    margin-right: 500px; */
 }
 .header__logo--color{
     color: black;
-    margin-right: 100px;
 }
 
 .nav__menu{
@@ -50,6 +52,9 @@
     right: 0;
     background: #000;
 }
+.nav__menu--style:last-child:after{
+    background: none;
+}
 .nav__menu--color{
     color: #000;
 }
@@ -62,20 +67,23 @@
     display: flex;
     width: 80%;
     height: 75vh;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 50px;
+    margin: 0 auto;
 }
 .section__picture{
     width: 400px;
     height: 400px;
+    margin-left:100px;
+
 }
 .section__picture--size{
     width: 100%;
     border-radius: 100%;
 }
 .section__infos{
-    width: 70%;
+    width: 50%;
 }
 .about__title{
     font-size: 2.5rem;
@@ -125,10 +133,6 @@
 }
 
 /* footer */
-.line{
-    width: 80%;
-    margin: 0 auto;
-}
 .footer{
     display: flex;
     justify-content: center;
@@ -139,13 +143,18 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
+    border-top: 1px solid ;
+    padding-top: 20px;
 }
 .footer__content--color{
     color: #000;
 }
-/* responsive */
-@media screen and (min-width: 1600px){
-    .header__container, .section, .footer__container{
-        width: 60%;
+/* responsive--navigation--index--footer */
+@media screen and (max-width: 1024px){
+    .footer__container{
+        flex-direction: column ;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
     }
 }
