@@ -25,8 +25,6 @@
     font-size: 1.7rem; 
     font-weight: bold;
     cursor: pointer;
-    /* padding-right: 100px;
-    margin-right: 500px; */
 }
 .header__logo--color{
     color: black;
@@ -155,8 +153,6 @@
 @media screen and (max-width: 1024px){
     .header__logo{
         font-size: 1.3rem; 
-        /* padding-right: 100px;
-        margin-right: 500px; */
     }
     .footer{ 
         margin: 50px 0;
@@ -192,15 +188,8 @@
     .header__container{
         display: block;
         margin: 10px 0 ;
-        /* width: 90%;
-        justify-content: space-between;
-        height: 10vh;
-        align-items: center; */
-       
     }
     .header__logo{
-        /* margin: 0 auto;
-        width: 50%; */
         text-align: center;
     }
     .nav__menu{
