@@ -80,6 +80,9 @@
 
 } 
 @media screen and (max-width: 750px){
+    .block{
+        margin-top: 50px;
+    }
     .block__form{
         display: block;
         text-align: center;
@@ -87,6 +90,7 @@
     }
     .infos{
         width: auto;
+        margin-top: 50px;
     }
     .form__textarea{
         display: block;

@@ -151,6 +151,12 @@
     .header__logo{
         font-size: 1.3rem; 
     }
+    .link__list{
+        justify-content: center;
+    }
+    .about__text{
+        text-align: justify;
+    }
     .footer{ 
         margin: 50px 0;
         height: auto;
@@ -193,6 +199,9 @@
         justify-content: center;
         margin-top: 10px;
 
+    }
+    .section{
+        margin-top: 50px;
     }
     .section__picture{
         width: 250px;

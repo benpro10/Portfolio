@@ -55,7 +55,10 @@
 }
 /* responsive */
 @media screen and (max-width: 750px){
-   .block{
+   .curriculum{
+    margin-top: 50px;
+   }
+    .block{
     display: block;
    }
    .left__title{

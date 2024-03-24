@@ -46,6 +46,9 @@
        margin: 0 auto;
        text-align: center;
     }
+    .project__title{
+        margin-top: 50px;
+    }
     .project__items{
         display: block;
         text-align: center;
