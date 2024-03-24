@@ -36,6 +36,7 @@
 .form__input--text[type="text"], .form__input--mail[type="email"]{
     width: 250px;
     border:1px solid black ;
+    height: 25px;
     
 }
 .form__textarea{
